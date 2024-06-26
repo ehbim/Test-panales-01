@@ -2,3 +2,9 @@
 <IfModule mod_headers.c>
     Header set Cache-Control "max-age=604800, public"
 </IfModule>
+
+# Configuración de X-Content-Type-Options
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
