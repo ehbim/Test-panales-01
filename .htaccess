@@ -1,0 +1,4 @@
+# Configuración de Cache-Control para una semana
+<IfModule mod_headers.c>
+    Header set Cache-Control "max-age=604800, public"
+</IfModule>
